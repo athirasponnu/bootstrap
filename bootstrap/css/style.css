@@ -2,6 +2,10 @@
 {
     box-sizing:border-box;   
 }
+body
+{
+  font-family:sans-serif;
+}
 sup
 {
     color:hotpink;
@@ -142,6 +146,10 @@ nav
     width:300px;
     padding:9px 0px;
 }
+.paragraph
+{
+    font-size:15px;
+}
 .small-text
 {
     font-size:11px;
@@ -169,4 +177,18 @@ nav
 .fa-note-sticky
 {
     font-size:20px;
+}
+.rating
+{
+    font-size:17px;
+    color:rgb(105, 103, 103);
+}
+.progress
+{
+    height:5px;
+    width:150px;
+}
+.progress-bar
+{
+    padding-top:10px;
 }
