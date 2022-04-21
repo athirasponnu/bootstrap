@@ -1,0 +1,172 @@
+*
+{
+    box-sizing:border-box;   
+}
+sup
+{
+    color:hotpink;
+}
+/* .nav-link1:hover
+{
+ border-bottom:3px solid brown;
+}
+.nav-link2:hover
+{
+ border-bottom:3px solid hotpink;
+}
+.nav-link3:hover
+{
+ border-bottom:3px solid orangered;
+}
+.nav-link4:hover
+{
+ border-bottom:3px solid rgb(199, 164, 8);
+}
+.nav-link5:hover
+{
+ border-bottom:3px solid rgb(5, 104, 58);
+}
+.nav-link6:hover
+{
+ border-bottom:3px solid rgb(253, 45, 45);
+} */
+nav
+{
+    box-shadow:2px 2px 2px rgb(202, 196, 196);
+}
+.form-control
+{
+    width:400px;
+}
+.fa-heart,.fa-bag-shopping,.fa-circle-user
+{
+    margin-top:8px;
+    font-size:18px;
+}
+.sub-title
+{
+    font-size:12px;
+}
+.breadcrumb-font
+{
+    font-size:14px;
+}
+.side-description
+{
+    font-size:20px;
+    color:gray;
+}
+.photo
+{
+    cursor:zoom-in;
+}
+.photo:hover
+{
+    
+}
+.discount
+{
+   font-size:20px;
+   color:gray;
+   padding:0px 15px;
+}
+.fa-star
+{
+    font-size:14px;
+    color:rgb(12, 154, 197);
+}
+.size-chart
+{
+    font-size:14px;
+    color:#ff3e6c;
+}
+.size
+{
+    border-radius:50%;
+    padding:10px 15px;
+    border:1px solid gray;
+}
+.size:hover
+{
+   border:1px solid red;
+}
+.small-size
+{
+    border-radius:50%;
+    padding:10px 17px;
+    border:1px solid gray;
+}
+.small-size:hover
+{
+     border:1px solid red;
+}
+.large-size
+{
+    border-radius:50%;
+    padding:10px 12px;
+    border:1px solid gray;
+    color:gray;
+}
+.add-button
+{
+    background-color:#ff3e6c;
+    border :1px solid #ff3e6c;
+    color:white;
+    padding:10px 0px;
+    width:240px;
+}
+.wishlist-button
+{
+    width:170px;
+    border:1px solid rgb(221, 219, 219);
+}
+.wishlist-button:hover
+{
+    border:1px solid rgb(49, 48, 48);
+}
+.pincode-box input,button
+{
+    border:none;
+    background-color: white;
+}
+.pincode-box button
+{
+    font-size:14px;
+}
+.pincode-box input:focus
+{
+    outline:none;
+}
+.pincode-box
+{
+    width:300px;
+    padding:9px 0px;
+}
+.small-text
+{
+    font-size:11px;
+}
+.fa-tag
+{
+    font-size:18px;
+}
+.best-price-list
+{
+    padding-left:28px;
+}
+.price-value
+{
+    color:#ff905a;
+}
+.small-list-item
+{
+    font-size:14px;
+}
+.eligible-product
+{
+    font-size:13px;
+}
+.fa-note-sticky
+{
+    font-size:20px;
+}
