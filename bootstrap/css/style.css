@@ -64,9 +64,9 @@ nav
 {
     cursor:zoom-in;
 }
-.photo:hover
+.photo img
 {
-    
+   width:380px;
 }
 .discount
 {
@@ -183,12 +183,185 @@ nav
     font-size:17px;
     color:rgb(105, 103, 103);
 }
-.progress
+.rating-icon
 {
-    height:5px;
-    width:150px;
+    font-size:20px;
+    padding-left:10px;
 }
-.progress-bar
+.progress-height
 {
-    padding-top:10px;
+    height:10px;
+    width:100px;
+    margin-top:4px;
+}
+.progress-icon
+{
+   color:gray;
+}
+.progress-icon i
+{
+     font-size:10px;
+     color:gray;
+}
+.medium-text
+{
+    font-size:13px;
+    padding-top:7px;
+}
+.large-text
+{
+    font-size:15px;
+}
+.side-text
+{
+    font-size:13px;
+}
+.customer-progress-height
+{
+    height:11px;
+    width:130px;
+}
+.customer-photo-img img
+{
+    width:75px;
+}
+.bg-image
+{
+    background-image: url('../assets/customer-photo-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.6;
+    color:black;
+}
+.overlay-content
+{
+    margin:25px auto; 
+}
+.small-icon-class
+{
+    font-size:9px;
+    color:white;
+}
+.side-icon-class
+{
+    padding:2px;
+    background-color: rgb(5, 105, 112);
+}
+.star-white
+{
+    color:white;
+    font-size:10px;
+}
+.customer-review-photo
+{
+    width:75px;
+}
+.likes
+{
+    padding-left:30%;
+}
+.dis-likes
+{
+   padding-left:30px;
+}
+.fa-thumbs-up,.fa-thumbs-down
+{
+    font-size:18px;
+}
+.discount-percent
+{
+    color:rgb(247, 111, 62);
+}
+.more-button
+{
+    width:350px;
+    border:1px solid gray;
+    padding:13px 2px;
+    border-radius:28px;
+    font-size:13px;
+}
+.more-button:hover
+{
+    border:1px solid red;
+}
+.more-teal-button
+{
+    width:220px;
+    border:1px solid gray;
+    padding:13px 2px;
+    border-radius:28px;
+    font-size:13px;
+}
+.more-teal-button:hover
+{
+    border:1px solid red;
+}
+.more-tshirt-button
+{
+    width:180px;
+    border:1px solid gray;
+    padding:13px 2px;
+    border-radius:28px;
+    font-size:13px;   
+}
+.more-tshirt-button:hover
+{
+    border:1px solid red;
+}
+.fa-chevron-right
+{
+    font-size:16px;
+    color:red;
+    padding-left: 2px;
+}
+.footer-links a
+{
+    color:rgb(129, 126, 126);
+}
+.new-button
+{
+    color:white;
+    background-color: red;
+    font-size:10px;
+    border-radius:25px;
+    border:1px solid red;
+}
+.play-store-button
+{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    margin-right:5px;
+    padding:0px 15px;
+}
+.smaller-text
+{
+    font-size:7px;
+    margin-top:8px;
+    letter-spacing: 1px;
+}
+.footer-row
+{
+    display:flex;
+    flex-direction:row;
+}
+.fa-google-play
+{
+    font-size:25px;
+    margin-top:10px;
+    padding-right:0px; 
+}
+.fa-apple
+{
+    font-size:25px;
+    margin-top:10px;
+    padding-right:1px; 
+}
+.social-media-icons i 
+{
+    margin-right:5px;
+    font-size:17px;
+    font-size:25px;
 }
