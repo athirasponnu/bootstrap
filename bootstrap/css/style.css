@@ -4,43 +4,81 @@
 }
 body
 {
-  font-family:sans-serif;
+    font-family:sans-serif;
+}
+#top-bar
+{
+    box-shadow:2px 2px 2px rgb(202, 196, 196);
+    padding:0;
+}
+#logo
+{
+    margin-top:17px;
+    padding-bottom:17px;
 }
 sup
 {
     color:hotpink;
 }
-/* .nav-link1:hover
+.nav-link
 {
- border-bottom:3px solid brown;
+    padding-top:17px;
+    padding-bottom:17px;
+    border:3px solid transparent;
+}
+.nav-bar
+{
+    z-index:1;
+    padding:0;
+    margin:0;
+}
+.nav-link1:hover
+{
+    border-bottom:3px solid brown;
 }
 .nav-link2:hover
 {
- border-bottom:3px solid hotpink;
+    border-bottom:3px solid hotpink;
 }
 .nav-link3:hover
 {
- border-bottom:3px solid orangered;
+    border-bottom:3px solid orangered;
 }
 .nav-link4:hover
 {
- border-bottom:3px solid rgb(199, 164, 8);
+    border-bottom:3px solid rgb(199, 164, 8);
 }
 .nav-link5:hover
 {
- border-bottom:3px solid rgb(5, 104, 58);
+    border-bottom:3px solid rgb(5, 104, 58);
 }
 .nav-link6:hover
 {
- border-bottom:3px solid rgb(253, 45, 45);
-} */
-nav
-{
-    box-shadow:2px 2px 2px rgb(202, 196, 196);
+    border-bottom:3px solid rgb(253, 45, 45);
 }
-.form-control
+.search-bar
 {
+    border:1px solid rgb(214, 209, 209);
     width:400px;
+    background-color: white;
+    border-radius:5px;
+    
+}
+.search-content
+{
+    width:380px;
+    padding:7px;
+    border:none;
+}
+.search-content:focus
+{
+    outline:none;
+}
+.fa-magnifying-glass
+{
+    font-size:16px;
+    padding:10px 7px;
+    color:gray;
 }
 .fa-heart,.fa-bag-shopping,.fa-circle-user
 {
@@ -64,15 +102,65 @@ nav
 {
     cursor:zoom-in;
 }
-.photo img
+.photo-size
 {
-   width:380px;
+    width:350px;
+    height:520px;
+}
+.photo1
+{
+   transition:0.5s;
+   background-image: url("../assets/photo2.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.photo2
+{
+    transition:0.8s; 
+    background-image: url("../assets/photo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo3
+{
+    transition:0.8s; 
+    background-image: url("../assets/photo3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo4
+{
+    transition:0.8s; 
+    background-image: url("../assets/photo4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo5
+{
+    transition:0.8s; 
+    background-image: url("../assets/photo5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo6
+{
+    transition:0.8s; 
+    background-image: url("../assets/photo6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo7
+{
+    transition:0.8s; 
+    background-image: url("../assets/photo7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .discount
 {
-   font-size:20px;
-   color:gray;
-   padding:0px 15px;
+    font-size:20px;
+    color:gray;
+    padding:0px 15px;
 }
 .fa-star
 {
@@ -92,7 +180,7 @@ nav
 }
 .size:hover
 {
-   border:1px solid red;
+    border:1px solid red;
 }
 .small-size
 {
@@ -102,7 +190,7 @@ nav
 }
 .small-size:hover
 {
-     border:1px solid red;
+    border:1px solid red;
 }
 .large-size
 {
@@ -196,12 +284,12 @@ nav
 }
 .progress-icon
 {
-   color:gray;
+    color:gray;
 }
 .progress-icon i
 {
-     font-size:10px;
-     color:gray;
+    font-size:10px;
+    color:gray;
 }
 .medium-text
 {
@@ -224,18 +312,6 @@ nav
 .customer-photo-img img
 {
     width:75px;
-}
-.bg-image
-{
-    background-image: url('../assets/customer-photo-4.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity:0.6;
-    color:black;
-}
-.overlay-content
-{
-    margin:25px auto; 
 }
 .small-icon-class
 {
@@ -262,7 +338,7 @@ nav
 }
 .dis-likes
 {
-   padding-left:30px;
+    padding-left:30px;
 }
 .fa-thumbs-up,.fa-thumbs-down
 {
@@ -303,6 +379,11 @@ nav
     padding:13px 2px;
     border-radius:28px;
     font-size:13px;   
+}
+.group-button
+{
+    display: flex;
+    flex-direction: row;
 }
 .more-tshirt-button:hover
 {
@@ -364,4 +445,38 @@ nav
     margin-right:5px;
     font-size:17px;
     font-size:25px;
+}
+.popular-searches
+{
+    margin:  0;
+    text-align: left;
+    color: black;
+    font-size: 13px;
+    max-width:80%;
+    position: relative;
+}
+.popular-searches:after 
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #aaa9a9;
+    left:20%;
+    top: 50%;
+    position: absolute;
+}
+.popular-search-content
+{
+    word-spacing: 4px;
+    color:gray;
+}
+.website-link
+{
+    color:gray;
+}
+.mynthra-app
+{
+    display:flex;
+    flex-direction:row;
 }
