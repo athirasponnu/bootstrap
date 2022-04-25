@@ -34,7 +34,7 @@ sup
 }
 .nav-link1:hover
 {
-    border-bottom:3px solid brown;
+    border-bottom:3px solid #ee5f73;
 }
 .nav-link2:hover
 {
@@ -50,7 +50,7 @@ sup
 }
 .nav-link5:hover
 {
-    border-bottom:3px solid rgb(5, 104, 58);
+    border-bottom:3px solid #0db7af;
 }
 .nav-link6:hover
 {
@@ -61,8 +61,7 @@ sup
     border:1px solid rgb(214, 209, 209);
     width:400px;
     background-color: white;
-    border-radius:5px;
-    
+    border-radius:5px;   
 }
 .search-content
 {
@@ -106,6 +105,11 @@ sup
 {
     width:350px;
     height:520px;
+    transition: 4s;
+}
+.photo-size:hover
+{
+    transform :scale(1.02);
 }
 .photo1
 {
@@ -409,13 +413,11 @@ sup
 }
 .play-store-button
 {
-    display:flex;
-    flex-direction: row;
     background-color: black;
     color:white;
     border-radius: 10px;
     margin-right:5px;
-    padding:0px 15px;
+    padding:0px 5px;
 }
 .smaller-text
 {
@@ -428,9 +430,26 @@ sup
     display:flex;
     flex-direction:row;
 }
+.card-top
+{
+    position:relative
+}
+.card-icon
+{
+    position:absolute;
+    background-color:white;
+    top:94%;
+    left:3%;
+    font-size:9px;
+    padding:0px 2px;
+}
+.card-star
+{
+    font-size:8px;
+}
 .fa-google-play
 {
-    font-size:25px;
+    font-size:20px;
     margin-top:10px;
     padding-right:0px; 
 }
@@ -475,8 +494,72 @@ sup
 {
     color:gray;
 }
-.mynthra-app
+.men-details
 {
-    display:flex;
-    flex-direction:row;
+    display:none;
 }
+.men-details-show
+{
+    display:block;
+}
+.men-details
+{
+    position:absolute;
+    top:99%;
+    left:8%;
+    display:none;
+    width:85%;
+    border:none;
+    background-color:white;
+}
+.nav-item:hover .men-details
+{
+    display:block;
+}
+.sub-headings
+{
+    padding-left:30px;
+}
+.heading1-color
+{
+    color:#ee5f73;
+}
+.heading2-color
+{
+    color:hotpink;
+}
+.heading3-color
+{
+    color:orangered;
+}
+.heading4-color
+{
+    color:rgb(199, 164, 8);
+}
+.heading5-color
+{
+    color:#0db7af;
+}
+.studio-images
+{
+    position:absolute;
+    top:99%;
+    left:30%;
+    display:none;
+    width:45%;
+    border:none;
+    background-color:white;
+}
+.studio-area:hover .studio-images
+{
+    display:block;
+}
+.studio-photo
+{
+    width:90%;
+}
+.studio-text
+{
+    font-size:22px;
+}
+
