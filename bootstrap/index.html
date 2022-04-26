@@ -11,16 +11,34 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top-bar">
-            <div class="container-fluid d-flex justify-content-between ">
-                <a class="navbar-brand ms-1" href="#" id="logo">
+            <div class="container-fluid justify-content-lg-between justify-content-start ">
+                <a class="navbar-brand px-3 " href="#" id="logo">
                     <img src="assets/logo.png"  alt="logo-image">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
+                    <div class="offcanvas-header">
+                      <div class="offcanvas-title">
+                        <img src="assets/logo.png" class="ps-4" alt="logo-image">
+                      </div>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                       <div class="container">
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>MEN</b></a>
+                        <a class="nav-link color-black  active" aria-current="page" href="#"><b>WOMEN</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>KIDS</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>HOME&LIVING</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>BEAUTY</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>STUDIO</b></a>
+                       </div>
+                    </div>
+                  </div>
+                <button  class="navbar-toggler float-start" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="navbar-nav  gap-3">
-                        <span class="nav-item ">
+                    <div class="navbar-nav d-flex flex-row me-1 gap-3 ">
+                        <span class="nav-item  ">
                             <a class="nav-link  nav-link1 active" aria-current="page" href="#"><b>MEN</b></a>
                             <div class="container-fluid men-details p-4 ">
                                 <div class="d-flex flex-row gap-5">
@@ -440,7 +458,7 @@
                                 <b>STUDIO</b>
                                 <sup><small>NEW</small></sup>
                             </a>
-                            <div class="container-fluid  studio-images text-center p-4">
+                            <div class="container-fluid  d-sm-none studio-images text-center p-4">
                                 <p class="studio-text"><b>Studio</b></p>
                                 <p>Your daily inspiration for everything fashion</p>
                                 <img src="assets/sudio-nav-banner.png" class="studio-photo">
@@ -448,25 +466,27 @@
                             </div>
                         </span>
                     </div>
-                    <form class="d-flex  ms-2  search-bar">
+                </div> 
+                <form class=" d-flex ms-5 ps-1  d-md-flex d-sm-flex d-flex gap-2  search-bar " > 
+                    <!-- <div class=" d-flex  search-bar "> -->
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input class=" me-2 search-content" type="search" placeholder="Search" aria-label="Search">
-                    </form>
-                    <ul  class="navbar-nav ps-5  mb-lg-0 gap-3">
-                        <li  class="nav-item">
-                            <i class="fa-solid fa-circle-user"></i><br>
-                            <span class="sub-title">profile</span>
-                        </li>
-                        <li  class="nav-item">
-                            <i class="fa-solid fa-bag-shopping"></i><br>
-                            <span class="sub-title">Bag</span>
-                        </li>
-                        <li>
-                            <i class="fa-regular fa-heart"></i><br>
-                            <span class="sub-title">Wishlist</span>
-                        </li>
-                    </ul>
-                </div>
+                        <input class=" me-1 search-content  " type="search" placeholder="Search" aria-label="Search">
+                    <!-- </div> -->
+                </form>
+                <ul  class="navbar-nav ps-5 col-md-auto  d-xl-flex  d-sm-none d-none mb-lg-0 gap-3">
+                    <li  class="nav-item">
+                        <i class="fa-solid fa-circle-user"></i><br>
+                        <span class="sub-title">profile</span>
+                    </li>
+                    <li  class="nav-item">
+                        <i class="fa-solid fa-bag-shopping"></i><br>
+                        <span class="sub-title">Bag</span>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-heart"></i><br>
+                        <span class="sub-title">Wishlist</span>
+                    </li>
+                </ul>
             </div>
         </nav>
         <div class="container-fluid d-flex flex-row  pt-4">
@@ -480,7 +500,7 @@
         </div>
         <div class="container-fluid  mt-3 ">
             <div class="row">
-                <div class="col-sm-7 col-md-5 col-lg-7 ps-5  d-flex photo">
+                <div class="col-sm-7  ps-5  d-flex photo">
                     <div class="row  h-50  row-cols-2 row-cols-sm-1 row-cols-md-2 gap-3 ">
                         <div class="col pb-2 photo1 img-fluid photo-size ">
                             <!-- <img src="assets/photo2.jpg" alt="image" > -->
@@ -509,7 +529,7 @@
                     <div class="row pb-3 border-bottom" >
                         <h4><b>HRX by Hrithik Roshan</b></h4>
                         <p class="side-description">Men Teal Blue Printed Pure Cotton T-shirt</p>
-                        <a href="#" class="text-decoration-none" >
+                        <a href="#" class="text-decoration-none " >
                             <span class="border p-1 text-dark">
                                 <b>4.3</b> <i class="fa-solid fa-star"></i> |  37.1k Ratings
                             </span>
@@ -532,7 +552,7 @@
                         </div>
                     </div>
                     <div class="row pt-3">
-                        <div class="d-flex flex-row gap-3">
+                        <div class="d-flex flex-row  gap-3">
                             <span class="small-size"><b>S</b></span>
                             <span class="size"><b>M</b></span>
                             <span  class="small-size"><b>L</b></span>
@@ -558,7 +578,7 @@
                     <div class="row ps-3 pt-4 ">
                         <div class="d-flex flex-row pincode-box border rounded">
                             <input type="text" class="input-controls ps-2" placeholder="Enter a PINcode">
-                            <button type="button" class=" text-secondary ps-4">CHECK</button>
+                            <button type="button" class=" text-secondary ps-1">CHECK</button>
                         </div>
                     </div>
                     <div class="row pt-2">
@@ -735,8 +755,8 @@
                                 <img src="assets/customer-photo-3.jpg" alt="customer-photos">
                             </div>
                             <div class="col-sm-2 bg-image">
-                                <img src="assets/customer-photo-4.jpg" alt="customer-photos">
-                                <!-- <div class="overlay-content"><b>+679</b></div> -->
+                                <!-- <img src="assets/customer-photo-4.jpg" alt="customer-photos"> -->
+                                <div class="overlay-content"><b>+679</b></div>
                             </div>
                         </div>
                     </div>
@@ -846,7 +866,7 @@
             <div class="row">
                <p class="h6"><b>SIMILAR PRODUCTS</b></p>
             </div>
-            <div class="row  row-col-1 row-cols-sm-2 row-col-md-3 row-cols-lg-5   pt-3">
+            <div class="row  row-col-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5  pt-3">
                 <div class="card-section">
                     <div class="card">
                         <div class="card-top">
@@ -1304,8 +1324,6 @@
                             </div>
                         </div>
                     </div>
-                <!-- </div>
-                <div class="row  row-col-1 row-cols-sm-2 row-cols-lg-5 row-cols-md-3  pt-3"> -->
                     <div class="card-section">
                         <div class="card">
                             <img class="card-img-top" src="assets/additional-product-7.jpg" alt="Card image" >
@@ -1386,7 +1404,7 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-5 mb-4 mb-md-0">
                                 <div class=" footer-links">
-                                    <p class="small-text"><b>ONLINE SHOPPING</b></p>
+                                    <p class="small-text color-black">ONLINE SHOPPING</p>
                                     <div class="medium-text"><a href="#" class="text-decoration-none">Men</a></div>
                                     <div class="medium-text"><a href="#"  class="text-decoration-none">Women</a></div>
                                     <div class="medium-text"><a href="#"  class="text-decoration-none">Kids</a></div>
@@ -1401,7 +1419,7 @@
                             </div>
                             <div class="col-lg-2 col-md-5 mb-4 mb-md-0">
                                 <div class=" footer-links ">
-                                    <p class="small-text"><b>USEFUL LINKS</b></p>
+                                    <p class="small-text color-black">USEFUL LINKS</p>
                                     <div class="medium-text"><a href="#" class="text-decoration-none">Contact Us</a></div>
                                     <div class="medium-text"><a href="#" class="text-decoration-none">FAQ</a></div>
                                     <div class="medium-text"><a href="#" class="text-decoration-none">T&C</a></div>
@@ -1420,26 +1438,14 @@
                             </div>
                             <div class="col-lg-3 col-md-5 mb-4 mb-md-0">
                                 <div class="">
-                                    <p class="small-text"><b>EXPERIENCE MYNTRA APP ON MOBILE</b></p>
+                                    <p class="small-text color-black">EXPERIENCE MYNTRA APP ON MOBILE</p>
                                 </div>
-                                <div class="d-flex flex-row pt-3 ">
-                                    <div  class="border  play-store-button ">
-                                        <i class="fa-brands fa-google-play"></i>
-                                        <span>
-                                            <span class="smaller-text">GET IT ON</span><br>
-                                            <span class="medium-text">Google Play</span>
-                                        </span>
-                                    </div>
-                                    <div class="border play-store-button">
-                                        <i class="fa-brands fa-apple"></i>
-                                        <span>
-                                            <span class="small-text">Download on the</span><br> 
-                                            <span class="medium-text">Appstore</span>
-                                        </span>
-                                    </div>
+                                <div class="d-flex flex-row justify-content-center pt-3 gap-2 ">
+                                    <img src="assets/google-play.png" class="play-store">
+                                    <img src="assets/apple-store.png" class="apple-store">
                                 </div>
                                 <div class="pt-3">
-                                    <p class="small-text">KEEP IN TOUCH</p>
+                                    <p class="small-text color-black">KEEP IN TOUCH</p>
                                     <div class="social-media-icons">
                                         <i class="fa-brands fa-facebook-square"></i>
                                         <i class="fa-brands fa-twitter"></i>
@@ -1448,26 +1454,25 @@
                                     </div>
                                 </div>                                   
                             </div>
-                            <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
-                                <div class="p-5 d-flex flex-row">
-                                    <div>
+                            <div class="col-lg-4 col-md-5 mb-4 mb-md-0 ">
+                                <div class="ps-5 pt-2 d-flex flex-row  ">
+                                    <div class="pb-3 ">
                                         <img src="assets/original-image.png" class="original-image" alt="image">
                                     </div>
-                                    <div class="large-text "> <b>100% ORIGINAL</b> guarantee <br>for all products at myntra.com</div>
+                                    <div class="large-text  "> <b class="color-black">100% ORIGINAL</b> guarantee <br>for all products at myntra.com</div>
                                     <br>
                                 </div>
-                                <div class="p-1 ps-5 d-flex flex-row">
+                                <div class="p-1  ps-5 d-flex flex-row">
                                     <div>
                                         <img src="assets/return-image.png" class="original-image" alt="image">
                                     </div>
-                                    <div class="large-text ps-2"> <b>Return within 30days</b> guarantee <br>of receiving your order</div>
+                                    <div class="large-text ps-2"> <b class="color-black">Return within 30days</b> guarantee <br>of receiving your order</div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <hr class="mb-4" />
                     </div>
-                    <div class="container">
+                    <div class="container pt-4">
                         <div class="row d-flex flex-row">
                             <p class="popular-searches"><b>POPULAR SEARCHES</b></p>
                         </div>

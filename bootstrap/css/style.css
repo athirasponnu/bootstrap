@@ -59,14 +59,18 @@ sup
 .search-bar
 {
     border:1px solid rgb(214, 209, 209);
-    width:400px;
+    width:250px;
     background-color: white;
     border-radius:5px;   
 }
+.offcanvasMenu
+{
+    width:250px;
+}
 .search-content
 {
-    width:380px;
-    padding:7px;
+    width:180px;
+    padding:2px;
     border:none;
 }
 .search-content:focus
@@ -76,7 +80,7 @@ sup
 .fa-magnifying-glass
 {
     font-size:16px;
-    padding:10px 7px;
+    padding:10px 2px;
     color:gray;
 }
 .fa-heart,.fa-bag-shopping,.fa-circle-user
@@ -199,7 +203,7 @@ sup
 .large-size
 {
     border-radius:50%;
-    padding:10px 12px;
+    padding:8px 10px;
     border:1px solid gray;
     color:gray;
 }
@@ -286,6 +290,7 @@ sup
     width:100px;
     margin-top:4px;
 }
+  
 .progress-icon
 {
     color:gray;
@@ -327,6 +332,27 @@ sup
     padding:2px;
     background-color: rgb(5, 105, 112);
 }
+.bg-image
+{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../assets/customer-photo-4.jpg");
+  background-size: cover;
+  
+}
+.overlay-content
+{
+    color:white;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top:25px;
+    margin-left:10px;
+}
+
 .star-white
 {
     color:white;
@@ -342,7 +368,7 @@ sup
 }
 .dis-likes
 {
-    padding-left:30px;
+    padding-left:20px;
 }
 .fa-thumbs-up,.fa-thumbs-down
 {
@@ -459,11 +485,23 @@ sup
     margin-top:10px;
     padding-right:1px; 
 }
+.play-store
+{
+    width:130px;
+}
+.apple-store
+{
+    width:130px;
+}
 .social-media-icons i 
 {
     margin-right:5px;
     font-size:17px;
     font-size:25px;
+}
+.color-black
+{
+    color:black;
 }
 .popular-searches
 {
@@ -473,17 +511,6 @@ sup
     font-size: 13px;
     max-width:80%;
     position: relative;
-}
-.popular-searches:after 
-{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
-    background: #aaa9a9;
-    left:20%;
-    top: 50%;
-    position: absolute;
 }
 .popular-search-content
 {
