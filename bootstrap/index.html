@@ -12,8 +12,7 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top-bar">
             <div class="container-fluid justify-content-lg-between justify-content-start ">
-                
-                <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
+                <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="side-bar">
                     <div class="offcanvas-header">
                       <div class="offcanvas-title">
                         <img src="assets/logo.png" class="ps-4" alt="logo-image">
@@ -22,25 +21,24 @@
                     </div>
                     <div class="offcanvas-body">
                        <div class="container">
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>MEN</b></a>
-                        <a class="nav-link color-black  active" aria-current="page" href="#"><b>WOMEN</b></a>
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>KIDS</b></a>
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>HOME&LIVING</b></a>
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>BEAUTY</b></a>
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>STUDIO</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>MEN</b></a>
+                            <a class="nav-link color-black  active" aria-current="page" href="#"><b>WOMEN</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>KIDS</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>HOME&LIVING</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>BEAUTY</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>STUDIO</b></a>
                        </div>
                     </div>
-                  </div>
-                <button  class="navbar-toggler float-start ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                </div>
+                <button  class="navbar-toggler float-start ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#side-bar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand ps-4 " href="#" id="logo">
                     <img src="assets/logo.png"  alt="logo-image">
                 </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
                     <div class="navbar-nav d-flex flex-row me-1 gap-3 ">
-                        <span class="nav-item  ">
+                        <div class="nav-item  ">
                             <a class="nav-link  nav-link1 active" aria-current="page" href="#"><b>MEN</b></a>
                             <div class="container-fluid men-details p-4 ">
                                 <div class="d-flex flex-row gap-5">
@@ -122,8 +120,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </span>
-                        <span class="nav-item">
+                        </div>
+                        <div class="nav-item">
                             <a class="nav-link  nav-link2 active" aria-current="page" href="#"><b>WOMEN</b></a>
                             <div class="container-fluid men-details p-4 ">
                                 <div class="d-flex flex-row gap-5">
@@ -205,8 +203,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </span>
-                        <span class="nav-item">
+                        </div>
+                        <div class="nav-item">
                             <a class="nav-link  nav-link3 active" aria-current="page" href="#"><b>KIDS</b></a>
                             <div class="container-fluid men-details p-4 ">
                                 <div class="d-flex flex-row gap-5">
@@ -288,8 +286,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </span>
-                        <span class="nav-item">
+                        </div>
+                        <div class="nav-item">
                             <a class="nav-link  nav-link4 active" aria-current="page" href="#"><b>HOME&LIVING</b></a>
                             <div class="container-fluid men-details p-4 ">
                                 <div class="d-flex flex-row gap-5">
@@ -371,8 +369,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </span>
-                        <span class="nav-item">
+                        </div>
+                        <div class="nav-item">
                             <a class="nav-link   nav-link5 active" aria-current="page" href="#"><b>BEAUTY</b></a>
                             <div class="container-fluid men-details p-4 ">
                                 <div class="d-flex flex-row gap-5">
@@ -454,8 +452,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </span>
-                        <span class="nav-item studio-area">
+                        </div>
+                        <div class="nav-item studio-area">
                             <a class="nav-link  nav-link6 active" aria-current="page" href="#">
                                 <b>STUDIO</b>
                                 <sup><small>NEW</small></sup>
@@ -463,32 +461,32 @@
                             <div class="container-fluid  d-sm-none studio-images text-center p-4">
                                 <p class="studio-text"><b>Studio</b></p>
                                 <p>Your daily inspiration for everything fashion</p>
-                                <img src="assets/sudio-nav-banner.png" class="studio-photo">
+                                <img src="assets/sudio-nav-banner.png" class="studio-photo" alt="image">
                                 <button type="button" class="border mt-5 p-2 "><b>EXPLORE STUDIO</b></button>
                             </div>
-                        </span>
+                        </div>
                     </div>
                 </div> 
-                <form class=" d-flex ms-5 ps-1  d-md-flex d-sm-flex d-flex gap-2  search-bar " > 
+                <form class=" d-flex ms-3 ps-1  d-md-flex d-sm-flex d-flex gap-2  search-bar " > 
                     <!-- <div class=" d-flex  search-bar "> -->
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <input class=" me-1 search-content  " type="search" placeholder="Search" aria-label="Search">
                     <!-- </div> -->
                 </form>
-                <ul  class="navbar-nav ps-5 col-md-auto  d-xl-flex  d-sm-none d-none mb-lg-0 gap-3">
-                    <li  class="nav-item">
+                <div  class="navbar-nav ps-5 col-md-auto  d-xl-flex   d-sm-none d-none mb-lg-0 gap-3">
+                    <span  class="nav-item">
                         <i class="fa-solid fa-circle-user"></i><br>
                         <span class="sub-title">profile</span>
-                    </li>
-                    <li  class="nav-item">
+                    </span>
+                    <span  class="nav-item">
                         <i class="fa-solid fa-bag-shopping"></i><br>
                         <span class="sub-title">Bag</span>
-                    </li>
-                    <li>
+                    </span>
+                    <span>
                         <i class="fa-regular fa-heart"></i><br>
                         <span class="sub-title">Wishlist</span>
-                    </li>
-                </ul>
+                    </span>
+                </div>
             </div>
         </nav>
         <div class="container-fluid d-flex flex-row  pt-4">
@@ -497,7 +495,9 @@
                 <li class="breadcrumb-item"><a href="#" class="text-secondary text-decoration-none">Clothing</a></li>
                 <li class="breadcrumb-item"><a href="#" class="text-secondary text-decoration-none">Men Clothing</a></li>
                 <li class="breadcrumb-item"><a href="#" class="text-secondary text-decoration-none">T-shirts</a></li>
-                <li class="breadcrumb-item text-dark active"><b>HRX By Hrithik Roshan Tshirts>More By HRX By Hrithik Roshan</b></li>
+                <li class="breadcrumb-item text-dark active">
+                    <b>HRX By Hrithik Roshan Tshirts>More By HRX By Hrithik Roshan</b>
+                </li>
             </ul>
         </div>
         <div class="container-fluid  mt-3 ">
@@ -636,7 +636,9 @@
                             Fit: Regular<br>
                         </div>
                         <span class="pt-3"><b>Size & Fit</b></span>
-                        <div class="paragraph">The model (height 6') is wearing a size M</div>
+                        <div class="paragraph">
+                            The model (height 6') is wearing a size M
+                        </div>
                         <span class="pt-3"><b>Material & Care</b></span>
                         <div class="paragraph">
                             100% cotton<br>
@@ -822,10 +824,14 @@
                                 <i class="fa-solid fa-star small-icon-class"></i>
                             </span>
                             <span class="large-text">
-                                <span class="ps-3">All is okay. But if the printed colour is more darker;</span>
+                                <span class="ps-3">
+                                    All is okay. But if the printed colour is more darker;
+                                </span>
                             </span>
                             <div>
-                                <span class="ps-5 large-text">then it will be perfect. Otherwise it's okay I'm happy.</span>
+                                <span class="ps-5 large-text">
+                                    then it will be perfect. Otherwise it's okay I'm happy.
+                                </span>
                             </div>
                         </div>
                         <div class="ps-5">
@@ -1399,10 +1405,10 @@
                 </div>
             </div>
         </div>
-        <div class="container-fuid my-5">
-            <footer class="text-center text-lg-start text-secondary">     
+        <footer class="text-center text-lg-start text-secondary">
+            <div class="container-fuid my-5">    
                 <div class="container p-4 pb-0">
-                    <section class="">
+                    <div>
                         <div class="row">
                             <div class="col-lg-3 col-md-5 mb-4 mb-md-0">
                                 <div class=" footer-links">
@@ -1443,8 +1449,8 @@
                                     <p class="small-text color-black">EXPERIENCE MYNTRA APP ON MOBILE</p>
                                 </div>
                                 <div class="d-flex flex-row justify-content-center pt-3 gap-2 ">
-                                    <img src="assets/google-play.png" class="play-store">
-                                    <img src="assets/apple-store.png" class="apple-store">
+                                    <img src="assets/google-play.png" class="play-store" alt="image">
+                                    <img src="assets/apple-store.png" class="apple-store" alt="image">
                                 </div>
                                 <div class="pt-3">
                                     <p class="small-text color-black">KEEP IN TOUCH</p>
@@ -1461,43 +1467,49 @@
                                     <div class="pb-3 ">
                                         <img src="assets/original-image.png" class="original-image" alt="image">
                                     </div>
-                                    <div class="large-text  "> <b class="color-black">100% ORIGINAL</b> guarantee <br>for all products at myntra.com</div>
+                                    <div class="large-text  ">
+                                        <b class="color-black">100% ORIGINAL</b>
+                                         guarantee <br>
+                                         for all products at myntra.com
+                                    </div>
                                     <br>
                                 </div>
                                 <div class="p-1  ps-5 d-flex flex-row">
                                     <div>
                                         <img src="assets/return-image.png" class="original-image" alt="image">
                                     </div>
-                                    <div class="large-text ps-2"> <b class="color-black">Return within 30days</b> guarantee <br>of receiving your order</div>
+                                    <div class="large-text ps-2"> 
+                                        <b class="color-black">Return within 30days</b>
+                                         guarantee <br>of receiving your order
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    </div>
-                    <div class="container pt-4">
-                        <div class="row d-flex flex-row">
-                            <p class="popular-searches"><b>POPULAR SEARCHES</b></p>
-                        </div>
-                        <div class="medium-text popular-search-content pt-3">
-                            Peesafe |  Myra |  Neerus |  Khadi | Natural | La Senza |
-                            Wild Stone | Decathlon | Koskii | Swisse | Arrow | Gucci|
-                            Philips | Jockey | Amster | Panit | Pantaloons | Men Pants|
-                            Justice League | Diesel | Manu | Sugar | G Shock  Fossil | 
-                            Nivea | Aristocrat |  Lakme |  Vega | Maybelline | Denver | Shirts For Mens|  
-                            Men Underwear | Kurta For Mens | Jockey Men Inner Wear |  Tissot  |
-                            Jacket For Men | Men Hoodies | Jeans Pant | Lower For Men | Mens Printed Shirts | 
-                            Jockey Underwear Men | Pajamas For Men |  Men Overcoat |  Mens Cotton Shorts | 
-                            Jockey Shorts For Men | Joggers For Men | Mens Cargo Shorts | Yelloe  |
-                            Himalaya  Bose  Boat
-                        </div>
-                        <div class=" row d-flex flex-row pt-4">
-                            <p class="col-sm-8 medium-text float-start">In case of any concern, <a href="#" class="text-decoration-none">Contact Us</a></p>
-                            <p class=" col-sm-4  large-text website-link ">© 2022 www.myntra.com. All rights reserved.</p>
-                        </div>
                     </div>
                 </div>
-            </footer>
-        </div>
+                <div class="container pt-4">
+                    <div class="row d-flex flex-row">
+                        <p class="popular-searches"><b>POPULAR SEARCHES</b></p>
+                    </div>
+                    <div class="medium-text popular-search-content pt-3">
+                        Peesafe |  Myra |  Neerus |  Khadi | Natural | La Senza |
+                        Wild Stone | Decathlon | Koskii | Swisse | Arrow | Gucci|
+                        Philips | Jockey | Amster | Panit | Pantaloons | Men Pants|
+                        Justice League | Diesel | Manu | Sugar | G Shock  Fossil | 
+                        Nivea | Aristocrat |  Lakme |  Vega | Maybelline | Denver | Shirts For Mens|  
+                        Men Underwear | Kurta For Mens | Jockey Men Inner Wear |  Tissot  |
+                        Jacket For Men | Men Hoodies | Jeans Pant | Lower For Men | Mens Printed Shirts | 
+                        Jockey Underwear Men | Pajamas For Men |  Men Overcoat |  Mens Cotton Shorts | 
+                        Jockey Shorts For Men | Joggers For Men | Mens Cargo Shorts | Yelloe  |
+                        Himalaya  Bose  Boat
+                    </div>
+                    <div class=" row d-flex flex-row pt-4">
+                        <p class="col-sm-8 medium-text float-start">In case of any concern, <a href="#" class="text-decoration-none">Contact Us</a></p>
+                        <p class=" col-sm-4  large-text website-link ">© 2022 www.myntra.com. All rights reserved.</p>
+                    </div>
+                </div>
+            </div> 
+        </footer>
         <script src="js/bootstrap.js"></script>
     </body>
 </html>
